@@ -27,7 +27,8 @@ Computer History:\\Integrated Circuits
 \restylefloat{figure}
 \usepackage[utf8]{inputenc}
 \usepackage{epigraph}
-
+\usepackage{graphicx}
+\usepackage{caption}
 
 \begin{document}
 
@@ -55,6 +56,7 @@ Talk about vacuum tubes
 
 \begin{figure}[h!]
 \centering
+\captionsetup{justification=centering}
 \includegraphics[width=0.2\textwidth]{ENIAC-changing_a_tube.jpg}
 \caption{A technician changes a vacuum tube in the ENIAC}
 \label{fig:example}
@@ -66,12 +68,20 @@ Talk about vacuum tubes
 
 \section{Theory}
 
-%Talk about the necessity of using circuits. Why are they needed at all? How do they accomplish the basic ideas from a model of information transfer/logic?%
+Talk about the necessity of using circuits. Why are they needed at all? How do they accomplish the basic ideas from a model of information transfer/logic?
 
 
 \section{Moore's Law}
 
-%Integrated Circuits have gone through an immense growth per physical size over the years, leading to many of the breakthroughs enjoyed in modern technology. Talk about how Moore's Law uses ICs as a metric of computer tech sophistication.
+
+\begin{figure}[h!]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width=0.2\textwidth]{1024px-Moore's_Law_Transistor_Count_1971-2018.png}
+\caption{Integrated Circuit complexity over time, 1970-2018}
+\label{fig:example}
+\end{figure} 
+Integrated Circuits have gone through an immense growth per physical size over the years, leading to many of the breakthroughs enjoyed in modern technology. Talk about how Moore's Law uses ICs as a metric of computer tech sophistication.
 
 
 \section{Cost/Efficiency}
