@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.16)  16 OCT 2020 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.16)  16 OCT 2020 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,14 +210,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [conference].
 
-(./computer_history.aux
-
-LaTeX Warning: Label `fig:example' multiply defined.
-
-
-LaTeX Warning: Label `fig:example' multiply defined.
-
-)
+No file computer_history.aux.
 \openout1 = `computer_history.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -236,7 +229,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
 3.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -357,72 +350,82 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./images/ENIAC-changing_a_tube.jpg Graphic file (type jpg)
 <use ./images/ENIAC-changing_a_tube.jpg>
 Package pdftex.def Info: ./images/ENIAC-changing_a_tube.jpg  used on input line
- 68.
+ 67.
 (pdftex.def)             Requested size: 187.89912pt x 155.28125pt.
-<./images/Moore's_Law_Transistor_Count_1971-2018.png, id=10, 3145.6722pt x 2272
+<./images/Kilby_solid_circuit.jpg, id=10, 388.45125pt x 257.96375pt>
+File: ./images/Kilby_solid_circuit.jpg Graphic file (type jpg)
+<use ./images/Kilby_solid_circuit.jpg>
+Package pdftex.def Info: ./images/Kilby_solid_circuit.jpg  used on input line 8
+3.
+(pdftex.def)             Requested size: 187.89912pt x 124.78162pt.
+<./images/Moore's_Law_Transistor_Count_1971-2018.png, id=11, 3145.6722pt x 2272
 .1688pt>
 File: ./images/Moore's_Law_Transistor_Count_1971-2018.png Graphic file (type pn
 g)
 <use ./images/Moore's_Law_Transistor_Count_1971-2018.png>
 Package pdftex.def Info: ./images/Moore's_Law_Transistor_Count_1971-2018.png  u
-sed on input line 89.
+sed on input line 99.
 (pdftex.def)             Requested size: 187.89912pt x 135.70018pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./images/ENIAC-changing_a_tube.jpg> <./images/Moore's_Law_Transistor_Count
-_1971-2018.png (PNG copy)>]
-Underfull \hbox (badness 1910) in paragraph at lines 106--107
+ [2 <./images/ENIAC-changing_a_tube.jpg> <./images/Kilby_solid_circuit.jpg>]
+Underfull \hbox (badness 1910) in paragraph at lines 114--115
 []\OT1/ptm/m/n/10 Woodford, Chris. \How Do In-te-grated Cir-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 []\OT1/ptm/m/n/10 Anysilicon. \The His-tory of In-te-grated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 \OT1/ptm/m/n/10 Cir-cuit" anysil-i-con, 27 March, 2020,
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 108--109
+Underfull \hbox (badness 7291) in paragraph at lines 116--117
 []\OT1/ptm/m/n/10 \What is an In-te-grated Cir-cuit (IC): The-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 \OT1/ptm/m/n/10 ory, Types of In-te-grated Cir-cuits (Chips)"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 \OT1/ptm/m/n/10 27 Febru-ary, 2010. Re-trieved from
  []
 
 [3
 
-] (./computer_history.aux)
+ <./images/Moore's_Law_Transistor_Count_1971-2018.png (PNG copy)>]
+(./computer_history.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3799 strings out of 481239
- 60497 string characters out of 5920376
- 308878 words of memory out of 5000000
- 19024 multiletter control sequences out of 15000+600000
+ 3803 strings out of 481239
+ 60648 string characters out of 5920376
+ 309831 words of memory out of 5000000
+ 19029 multiletter control sequences out of 15000+600000
  554944 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,42p,1433b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,42p,1433b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb>
-Output written on computer_history.pdf (3 pages, 1597559 bytes).
+Output written on computer_history.pdf (3 pages, 1618847 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 27 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
